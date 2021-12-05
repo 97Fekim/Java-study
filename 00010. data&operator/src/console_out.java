@@ -13,7 +13,6 @@ public class console_out
 		System.out.print(fVar);
 		System.out.println();
 		System.out.println("정수 : " + nVar + "\n" + "부동소수 : " + fVar);
-		
 	}
 }
 
