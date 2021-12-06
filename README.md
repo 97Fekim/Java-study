@@ -8,4 +8,5 @@
 >2. operator overview 학습 
 >3. for / while / do-while / if-else / label-break / continue 문법 학습
 ## 12/06
->//TODO
+>1. C, C++, Java의 배열 문법 차이점 학습
+>2. 
