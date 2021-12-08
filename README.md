@@ -9,4 +9,6 @@
 >3. for / while / do-while / if-else / label-break / continue 문법 학습
 ## 12/06
 >1. C, C++, Java의 배열 문법 차이점 학습
->2. 
+## 12/08
+>1. for문을 이용한 배열 출력
+>2. ★각 행마다 다른 index 갯수를 갖는 다차원 배열 학습★
