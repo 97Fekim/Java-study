@@ -1,5 +1,6 @@
 # Java-study with inflearn
-### _java_, _eclipse_
+### about '_java_'
+### in '_eclipse_'
 ## 12/04 
 >1. Oracle에서 java sdk 다운로드
 >2. Eclipse 환경 구축
@@ -31,3 +32,14 @@
 >> - 객체 자신을 참조하는 참조형 클래스 변수 또는 키워드
 >> - ex) this.멤버변수, this.메소드()
 >> - 잘 사용하지는 않는다.
+>5. 접근제어자 static
+ ## 12/11
+>1. package
+>> - 자주 사용되는 클래스를 모아 놓은 폴더
+>> - 패키지명은 소문자를 사용하는 것이 관례.
+>> - 사용 >> package 패키지명;
+>2. import
+>> - C언어의 #include와 유사한 역할
+>> - 클래스를 포함하고자 할 경우
+>> - 사용 >> import 패키지명.클래스명 --- (1)
+>> - 사용 >> import 패키지명.*; --------- (2)
