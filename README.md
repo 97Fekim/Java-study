@@ -1,4 +1,4 @@
-# Java-study with inflearn
+# Learing java with inflearn
 ### about '_java_'
 ### in '_eclipse_'
 ## 12/04 
