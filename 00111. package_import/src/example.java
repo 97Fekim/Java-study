@@ -8,5 +8,4 @@ public class example {
 		
 		exam.Print();
 	}
-
 }
