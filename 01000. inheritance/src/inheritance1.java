@@ -1,10 +1,27 @@
-public class inheritance1 {
-	public static void main(String[] args) {
-		
+
+public class inheritance1 
+{
+	public static void main(String[] args) 
+	{
 		/* 이건 된다 */
 		B exam = new B();		
 		exam.PrintC();
 		
+		/* overriding 예제 */
+		overriding_exam2 exam2 = new overriding_exam2();
+		System.out.println(exam2.Set(11));
+		
+		/* cast operator 예제 */
+		cast_operator3 exam5 = new cast_operator3();
+		cast_operator2 exam4 = new cast_operator3();
+		
+		cast_operator1 exam3 = (cast_operator1)exam4;
+		exam3.Print1();
+		exam4.Print1();
+		
+		/* 상속 클래스간 오버라이딩시에, 최하위 클래스의 함수가 호출된다. */
+		cast_operator3 exam6 = new cast_operator3();
+		exam6.Print();
 	}
 }
 
@@ -30,3 +47,4 @@ class B extends A {
 		//System.out.println(m_nVar1);
 	}
 }
+
