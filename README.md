@@ -81,3 +81,39 @@
 >> - 인터페이스-인터페이스 상속은 extends 사용
 >> - 인터페이스-클래스 상속은 implements 사용
 >> - 다중상속시에 하위 클래스는 모든 상위 인터페이스의 메소드를 구현해야함!
+## 12/22
+>1. 예외처리
+>> - 예외처리는 프로그램 실행 도중에 발생하는 오류를 처리하기 위한 부분이다.
+>>   (에러:수정불가능, 오류:수정가능...알려주는 역할)
+>> - 키워드 : try, catch, finally, throws
+>> 1.1. try, catch
+```
+<예외처리 기본 형식>
+try {
+  예외가 발생할 수 있는 문장
+  } catch (Exception형 e ) {
+    예외가 발생했을 때 처리하는 문장
+  }
+```
+>> - Exception 형은 -> java.lang 패키지에 존재  
+
+>> 1.2. finally
+>>> - try ~ catch문의 예외처리와 상관없이 항상 실행해야 하는 문장이 있는 경우에 사용
+```
+<finally 기본 형식>
+try {
+ ...
+} catch(Exception형 e) {
+ ...
+} finally {
+ 예외처리와 상관없이 항상 실행해야 하는 문장
+}  
+```
+>> 1.3. throws
+>>> - 모든 예외처리를 try ~ catch 안의 괄호에 넣어 처리하기에는 무리가 있다.
+```
+<throw 기본 형식>
+public static void main(String[] args) throws Exception {
+    ~~~
+}
+```
