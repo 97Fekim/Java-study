@@ -36,6 +36,7 @@ public class main_class {
 		Integer IntVar = 12; // = new Integer(12); ,Autoboxing  
 		int nVar = 3;
 		int nTotal = nVar + IntVar;	// = IntVar.intValue(); ,Autoboxing
+		
 		System.out.println("--------Autoboxing-------");
 		System.out.println("IntVar : " + IntVar );
 		System.out.println("Total = " + nTotal);
