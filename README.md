@@ -1,6 +1,5 @@
 # Learing java with inflearn
-### about '_java_'
-### in '_eclipse_'
+자바언어 기초 학습 내용을 정리한 공간입니다.
 ## 12/04 
 >1. Oracle에서 java sdk 다운로드
 >2. Eclipse 환경 구축
