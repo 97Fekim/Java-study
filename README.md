@@ -167,3 +167,6 @@ class 클래스명
 > - 고정 문자열
 > - java.lang Object/ java.lang.String 에서 상속받는다.
 > - 63가지의 메소드가 있다.
+> 2. StringBuffer 클래스
+> - 유동 문자열
+> 
