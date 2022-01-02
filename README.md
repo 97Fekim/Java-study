@@ -164,9 +164,17 @@ class 클래스명
 >>> - 기존 wrapper 클래스의 메소드를 간략하게 사용할 수 있게 해준다.
 ## 01/02
 > 1. String 클래스
-> - 고정 문자열
-> - java.lang Object/ java.lang.String 에서 상속받는다.
-> - 63가지의 메소드가 있다.
+>> - 고정 문자열
+>> - java.lang Object/ java.lang.String 에서 상속받는다.
+>> - 63가지의 메소드가 있다.
 > 2. StringBuffer 클래스
-> - 유동 문자열
-> - .append(), .delete() 메소드 등으로 수정 가능
+>> - 유동 문자열
+>> - .append(), .delete() 메소드 등으로 수정 가능
+> 3. Array 클래스
+>> - 배열을 다루는 클래스
+>> - 정렬, 검색, 특정 값으로 설정, 비교, 문자열 반환 기능
+>> - java.util.* 패키지 포함
+>> - java.lang Object/ java.lang.Arrays 에서 상속받는다.
+>> - 메소드가 모두 static 메소드이다.
+> 4. 컬렉션 클래스
+> 
