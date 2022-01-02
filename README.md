@@ -162,3 +162,8 @@ class 클래스명
 >> 2.2. Autoboxing
 >>> - wrapper 객체와 값 사이의 변환을 자동으로 처리해 주는것
 >>> - 기존 wrapper 클래스의 메소드를 간략하게 사용할 수 있게 해준다.
+## 01/02
+> 1. String 클래스
+> - 고정 문자열
+> - java.lang Object/ java.lang.String 에서 상속받는다.
+> - 63가지의 메소드가 있다.
